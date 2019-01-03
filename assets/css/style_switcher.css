@@ -1,0 +1,83 @@
+ 
+#style-switcher
+{
+  position: fixed;
+  top: 180px;
+  left:-10px;
+   z-index: 9999;
+   width:50px;
+  
+} 
+
+
+.show_hide {
+	margin-top:50px;
+    display:none;
+	position:absolute;
+	 background-color:#e7e7e7;
+}
+
+.slidingDiv
+{
+	
+	float:left;
+	
+}
+
+.slidingDiv ul > li > a {
+    border-radius: 2px;
+    display: block;
+    width: 35px;
+    height: 30px;
+	
+}
+
+.slidingDiv a.blue {
+    background: #00D1FF;
+}
+
+
+
+
+.slidingDiv ul > li > a.blue2 {
+    background: #a64dff;
+}
+
+.slidingDiv ul > li > a.green {
+    background: #50B62B;
+}
+
+.slidingDiv  ul > li > a.green2 {
+    background: #3c948b;
+}
+
+.slidingDiv ul > li > a.orange {
+    background: #f36b30;
+}
+
+.slidingDiv ul > li > a.orange2 {
+    background: #df6c4f;
+}
+
+.slidingDiv ul > li > a.pink {
+    background: #FF5C85;
+}
+
+.slidingDiv ul > li > a.pink2 {
+    background: #ff334f;
+}
+
+.sslidingDiv  p {
+    margin-top: 6px;
+}
+
+.switch-btn .btn
+{
+	border:0px;
+	border-radius:0px;
+	
+}
+
+.switch-btn .btn:focus {outline:0;}
+ 
+ 
