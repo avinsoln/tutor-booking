@@ -4,7 +4,7 @@
     }
 });
          
-    $(function(){
+   $(document).ready(function () {
         $("#typed").typed({
 			
             strings: ["Tuition", "Language","Yoga","Hobbies","IT Courses"],
